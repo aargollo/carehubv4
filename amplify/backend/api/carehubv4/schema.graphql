@@ -1,0 +1,18 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+# customized schema definitions for Carebox, added on blank schema
+type CareBOX @model  {
+	deviceId: ID! @primaryKey(sortKeyFields: ["timeStamp"])
+	timeStamp: String!
+	alarmeO2: String!
+	alarmeCACO2: String!
+	temperatura: String!
+	umidade: String!
+	concentracaoCO2: String!
+	particulados1um: String!
+	particulados25um: String!
+	particulados10um: String!
+	cargaO2: String!
+}

@@ -10,6 +10,11 @@
       "StackName": "amplify-carehubv4-dev-202307",
       "StackId": "arn:aws:cloudformation:sa-east-1:216863624236:stack/amplify-carehubv4-dev-202307/2384dfd0-e3c0-11ed-8220-0aaa8263d5c2",
       "AmplifyAppId": "d3gpr8u5ugqup6"
+    },
+    "categories": {
+      "api": {
+        "carehubv4": {}
+      }
     }
   }
 }
